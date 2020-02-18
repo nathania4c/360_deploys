@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+.thumbnail
+{
+	height: 100px;
+	float: left;
+	position: relative;
+	padding: 0.5em;
+}
+.desc
+{
+	overflow: hidden;	
+	height: 100px;
+	width: 450px;
+}
+.post
+{
+	height: 150px;
+	border: 0.1em solid #debead;
+	padding: 0.2em 0 0.2em 0.5em;
+}
+
+.things
+{
+	width: 5px;
+	float:right;
+	display: inline-block;
+
+}
