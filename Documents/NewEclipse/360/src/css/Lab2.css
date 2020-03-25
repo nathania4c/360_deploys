@@ -1,0 +1,88 @@
+@charset "UTF-8";
+	main {
+	background-color: white;
+	border: 3em solid #98dafc;
+	padding: 5%;
+	}
+	
+	header, footer {
+		color: white;
+		background-color: #312c32;
+		margin: 0em 4em, 0.5em 4em;
+		border-left: 3em solid #98dafc;
+		border-right: 3em solid #98dafc;
+		padding: 5%;
+	}
+	
+	h1, h2, h3, nav, footer {
+		font-family: "Trebuchet MS", "Lucia Grande", Tahoma, sans-serif;
+	}
+	
+	h1 {font-size: 1.5em;}
+	h2 {fon-size: 0.75em;}
+	h3 {font-size: 1.125em;}
+	nav {font-size: 1.125em;}
+	
+	body {
+		font-family: Georgia, Cambria, "Times New Roman", serif;
+		font-size: 100%;
+		background-color: #98dafc;
+	}
+	
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0
+	}
+	li{
+		display: inline;
+	}
+	
+	a:link {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #98dafc;
+	}
+	a:visited {
+	text-decoration: underline;
+	color: #daad86;
+	}
+	a:hover{
+	text-decoration: none;
+	color: #FFFFCC;
+	}
+	
+	.byline{
+		font-style: italic;
+		color: #99dafc;
+		padding-bottom: 0.2em;
+	}
+	
+	#largeimg {
+		border: 1px solid #312c32;
+		padding: 0.25em;
+		width: 98%;
+	}
+	
+	#socialBlock{
+		display: inline-block;
+		background-image: url(images/gray-gradient.png);
+		width: 94%;
+		border-radius: 0.5em;
+		padding: 1em;
+		font-size: 70%;
+	}
+	
+	.reviewBlock{
+		border-bottom: 1px dotted grey;	
+		border-top: 1px solid grey;
+		padding-top: 1%;
+		
+	}
+	h3{
+	padding-top: 1.5%;
+	padding-bottom: 1.5%}
+	
+	hr{
+	border: none! important;}
+	

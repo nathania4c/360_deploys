@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>COSC 360 - Lab 2</title>
+	<link rel="stylesheet" href="reset.css"/>
+	<link rel="stylesheet" href="Lab2.css"/>
+</head>
+<body>
+	<header>
+		<h1>COSC 360</h1>
+		<h2>Lab 2 = CSS</h2>
+		<nav>
+			<ul>
+				<li><a href="#description">Description</a></li>
+				<li><a href="#relatedphotos">Related Photos</a><li>
+				<li><a href="#reviews">Reviews</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h3 id="description">Description</h3>
+		<p class="byline">Photo by Myriams Fotos</p>
+		<p>This photo of ice crystans on a branch. The image is from
+		<a href="www.pixabay.com">Pixabay</a>
+		and was taken with Canon EOS 650D camera.</p>
+		<figure>
+			<img id="largeimg" src="images/eiskristalle-1938842_640.jpg" alt="whoops"/>
+			<figcaption class="byline"><i>Ice crystals on a branch</i></figcaption>	
+		</figure>
+		<p id="socialBlock">
+		<span>
+			<img src="images/glyphicons-152-new-window.png"/>
+		</span>
+		Share: 
+		<span>
+			<img src="images/social/email_16.png" alt="whoops"/>
+			<img src="images/social/facebook_16.png" alt="whoops"/>
+			<img src="images/social/flickr_16.png" alt="whoops"/>
+			<img src="images/social/rss_16.png" alt="whoops"/>
+			<img src="images/social/twitter_16.png" alt="whoops"/>
+		</span>
+		</p>
+		
+		<h3 id="relatedphotos">Related Photos</h3>
+		<div>
+			<a href="images/frost-490807_640.jpg">
+			<img src="images/frost-490807_640.jpg" alt="whoops" height="100"/>
+			</a>
+			<a href="images/hoarfrost-639980_640.jpg">
+			<img src="images/hoarfrost-639980_640.jpg" alt="whoops" height="100"/>
+			</a>
+			<a href="images/ice-crystal-64157_640.jpg">
+			<img src="images/ice-crystal-64157_640.jpg" alt="whoops" height="100"/>
+			</a>
+		</div>
+		
+		<h3 id="reviews">Reviews</h3>
+		<div class="reviewBlock">
+			<p class="byline">By Bob on
+			<time datetime="2017-01-11">January 11, 2017</time>
+			</p>
+			<p>Those are some nice photos.</p>
+		</div>
+		<hr>
+		<div class="reviewBlock">
+			<p class="byline">By Alice on
+			<time datetime="2016-10-01">October 1, 2016</time>
+			</p>
+			<p>Beautiful photos.</p>
+		</div>
+	</main>
+	<footer>
+		<p> <a href="#">Home</a> | 
+		<a href="#">Browse</a> |
+		<a href="#">Search</a>
+		</p>
+		<i>Copyright 2020 COSC Lab 2</i>
+	</footer>
+</body>
+</html>
