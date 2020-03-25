@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.required{
+	outline: 2px solid red;
+}
+.unfilledRequired{
+	background-color: red;
+}
+
+select, input[name="city"], input[name="rate"], input[name="date"], input[name="time"] {
+	outline: 2px solid red;
+}
+
+.done{
+	outline: none;
+}
