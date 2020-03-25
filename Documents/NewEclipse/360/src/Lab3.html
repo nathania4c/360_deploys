@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>COSC 360 Lab3</title>
+	<link rel="stylesheet" href="Lab3.css"/>
+</head>
+<body>
+
+<table>
+	<caption>January 2020</caption>
+	<tbody class="mytable">
+		<tr>
+			<th>S</th>
+			<th>M</th>
+			<th>T</th>
+			<th>W</th>
+			<th>T</th>
+			<th>F</th>
+			<th>S</th>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td><a href="#">5</a></td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+		</tr>
+		<tr>
+			<td><a href="#">12</a></td>
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td><a href="#">19</a></td>
+			<td>20</td>
+			<td>21</td>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td><a href="#">26</a></td>
+			<td>27</td>
+			<td id="today">28</td>
+			<td>29</td>
+			<td>30</td>
+			<td>31</td>
+			<td> </td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td id="prev" colspan="3"><a href="#">&lt&ltDec</a></td>
+			<td> </td>
+			<td id="next" colspan="3"><a href="#">Feb&gt&gt</a></td>
+		</tr>
+	</tfoot>
+</table>
+<form method="post" action="http://www.randyconnolly.com/tests/process.php">
+	<fieldset>
+		<legend>Meeting Details</legend>
+		<p>
+			<label>Client Name:</label>
+			<input type="text" name="client" placeholder="enter name"/>
+		</p>
+		<p>
+			<label>First Meeting?</label>
+			<input type="checkbox" name="first"/>
+		</p>
+		<p>
+			<label>Client Type:</label>
+			<input type="radio" name="type"/>
+			<label>School</label>
+			<input type="radio" name="type"/>
+			<label>College</label>
+			<input type="radio" name="type"/>
+			<label>University</label>
+		</p>
+		<p>
+			<label>Meeting Date:</label>
+			<input type="date" name="meetingdate"/>
+		</p>
+		<input type="submit" />
+		<input type="reset" />
+	</fieldset>
+</form>
+</body>
+</html>
